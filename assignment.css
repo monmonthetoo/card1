@@ -1,22 +1,55 @@
 body{
-    background-color: aliceblue;
+    background-color: white;
+    font-family:franklin;
 }
 .container{
     display: flex;
     justify-content: center;
+    background-color: white;
+    margin-top: 50px;
 }
 .container-item{
-    width: 100px;
-    height: 200px;
-    border: 1px solid black;
+    width: 150px;
+    height: 340px;
+    border: 1px solid rgb(166, 160, 160);
     border-radius: 10px; 
     margin: 10px;
+    position: relative;
+    margin: 30px;
+    box-shadow: 5px 5px 5px 5px gray;
+    background-color: white;
+    text-align: center;
 }
 .container-buttom{
-    margin-top: 175px;
-    height: 25px;
+    height: 40px;
+    position: absolute;
+    width: 150px;
+    margin-top:310px;
+    border: none;
+    border-radius: 0px 0px 10px 10px;
+    color: white;
+    margin-left: -5px;
+
+}
+.images{
+    width: 140px;
+    height: 90px;
+    margin-top: 6px;
+}
+.lore{
+    text-align: justify;
     width: 100px;
+    margin-left: 25px;
+    margin-top: -10px;
+    font-size: 15px;
+    text-align: center;
+    color: gray;
+}
+.star{
+    display: flex;
+    color: rgb(234, 163, 32);
+    justify-content: center;
+    font-size: 25px;
+    margin: -11px;
     
-
-
 }
